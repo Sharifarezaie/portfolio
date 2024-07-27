@@ -74,6 +74,7 @@
 
 .project {
   height: 200px;
+  width:100%
 }
 
 .innerdiv {
@@ -235,6 +236,34 @@ input {
 .cntct {
   color:#511F52;
   font-size: 23px;
+}
+
+#mySidebar {
+  display: none;
+}
+
+#headertext {
+  padding: 48px;
+}
+
+#social {
+  padding:24px 48px;
+}
+
+#about {
+  padding:128px 16px;
+}
+
+#project {
+  padding:50px 16px;
+}
+
+#prodiv {
+  margin-top:64px;
+}
+
+#skill {
+  padding:10px 16px;
 }
 
 @media screen and (max-width: 768px) {

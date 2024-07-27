@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Personal Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Portfolio</title>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -53,7 +53,7 @@ body, html {
 </div>
 
 <!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
   <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
@@ -65,7 +65,7 @@ body, html {
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <img src="logo.jpg" alt="" srcset="" id="logo">
-  <div class="w3-display-left w3-text-white" style="padding:48px">
+  <div class="w3-display-left w3-text-white" id="headertext">
     <h1 id="Name">Hi I am Sharifa Rezaie<br> Web Developer</h1>
     <div class="objective">
     <p id="objective">Junior developer with a strong interest in technology, web design, clean code, and collaboration. devoted to producing high-quality work.</p>
@@ -75,7 +75,7 @@ body, html {
   </div>
    
   </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+  <div class="w3-display-bottomleft w3-text-grey w3-large" id="social">
 
     <i class="fa fa-link1 fa-facebook-official w3-hover-opacity"></i>
     
@@ -87,7 +87,7 @@ body, html {
 </header>
 
 <!-- About Section -->
-<div class="w3-container aboutme" style="padding:128px 16px" id="about">
+<div class="w3-container aboutme" id="about">
   <h1 class="w3-center">ABOUT ME</h1>
   <p class="w3-center w3-large">Get to know me better!</p>
   <div class="w3-row-padding w3-center" style="margin-top:0;">
@@ -112,7 +112,7 @@ In addition to my professional skills, I have a passion for continuous learning 
 </div>
 
 <!-- Promo Section - "We know design" -->
-<div class="w3-container w3-light-grey" style="padding:50px 16px" id="project">
+<div class="w3-container w3-light-grey"  id="project">
   <div class="w3-row-padding">
     <div class="w3-row-padding">
     <h1 class="w3-center">Certificates</h1>
@@ -133,10 +133,10 @@ In addition to my professional skills, I have a passion for continuous learning 
   <div class="w3-row-padding">
     <h1 class="w3-center">MY PROJECTS</h1>
     <p class="w3-center w3-large">Explore What Can I DO!</p>
-    <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-row-padding w3-grayscale" id="prodiv">
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-card">
-          <img src="img/cashregisterproject.PNG" class="project" alt="John" style="width:100%">
+          <img src="img/cashregisterproject.PNG" class="project" alt="John" >
           <div class="w3-container">
             <h3>Cash Rigester</h3>
             <p class="w3-opacity">Web Designer</p>
@@ -147,7 +147,7 @@ In addition to my professional skills, I have a passion for continuous learning 
       </div>
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-card">
-          <img src="img/palindromechecherproject.PNG" class="project" alt="Jane" style="width:100%">
+          <img src="img/palindromechecherproject.PNG" class="project" alt="Jane" >
           <div class="w3-container">
             <h3>Palindrome Cheker</h3>
             <p class="w3-opacity">Web Designer</p>
@@ -158,7 +158,7 @@ In addition to my professional skills, I have a passion for continuous learning 
       </div>
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-card">
-          <img src="img/pokemonsearchappproject.PNG" alt="Mike" class="project" style="width:100%">
+          <img src="img/pokemonsearchappproject.PNG" alt="Mike" class="project" >
           <div class="w3-container">
             <h3>Pokemon</h3>
             <p class="w3-opacity">Web Designer</p>
@@ -169,7 +169,7 @@ In addition to my professional skills, I have a passion for continuous learning 
       </div>
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-card">
-          <img src="img/Romannomeralproject.PNG" alt="Dan" style="width:100%" class="project">
+          <img src="img/Romannomeralproject.PNG" alt="Dan" class="project">
           <div class="w3-container">
             <h3>Roman Converter</h3>
             <p class="w3-opacity">Web Designer</p>
@@ -185,7 +185,7 @@ In addition to my professional skills, I have a passion for continuous learning 
 </div>
 
 <!-- Team Section -->
-<div class="w3-container" style="padding:10px 16px" id="skill">
+<div class="w3-container" id="skill">
   
 <!-- Skills Section -->
 <div class="w3-container w3-light-grey w3-padding-64">
