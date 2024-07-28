@@ -1,12 +1,33 @@
+:root {
+  --value: 85;
+  --col: #511F52;
+}
+
+.html {
+  --value: 85;
+  --col: #511F52;
+}
+
+.css {
+  --value: 91;
+  --col: #511F52;
+}
+
+.js {
+  --value: 68;
+  --col: #511F52;
+}
+
 .w3-white {
-    background-color: #A987A8!important;   
+  background-color: #A987A8 !important;   
 }
 
 .w3-wide {
-    font-family: sans-serif;
-    font-weight: bold !important;
-    color: white !important;
+  font-family: sans-serif;
+  font-weight: bold !important;
+  color: white !important;
 }
+
 #Name {
   color: black;
   margin-left: 142px;
@@ -108,18 +129,6 @@
     --eb-progress-value: var(--value);
   }
 }
-
-/* body {
-  font-family: -apple-system, system-ui, Helvetica, Arial, sans-serif;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #f2f2f2;
-  max-width: 800px;
-  height: 100vh;
-} */
 
 .eb-progress-bar {
   --size: 4.5rem;
@@ -264,6 +273,62 @@ input {
 
 #skill {
   padding:10px 16px;
+}
+
+.headings{
+  display: none;
+}
+
+.tmwork {
+  display: flex;
+}
+
+.cleancode {
+  float: left;
+  width: 40%;
+}
+
+#contact{
+  padding:75px 30px;
+}
+
+.outerdiv {
+  margin-top:10px;
+  border: 2px solid #511F52 ;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  background-color: #f5e7f5;
+}
+
+.ninty {
+  width:90%;
+}
+
+.etyfifve {
+  width: 85%;
+}
+
+.sventyfive {
+  width: 75%;
+}
+
+.pesentage {
+  float: left;
+  width: 40%;
+  margin-left: 10px;
+}
+
+.fortynine {
+  width: 49%;
+}
+
+.seventysix {
+  width:76%;
+}
+
+.ety {
+  width:80%;
 }
 
 @media screen and (max-width: 768px) {
