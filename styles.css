@@ -95,7 +95,7 @@
 
 .project {
   height: 200px;
-  width:100%;
+  width: 100%;
 
 }
 
@@ -136,10 +136,12 @@
   --inner-bg: #f2f2f2;
   --primary-color: var(--col);
   --secondary-color: #dfe0e0;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0px 2px rgb(0 0 0 / 40%), inset 0 0px 1px rgb(0 0 0 / 30%),
+
+    box-shadow: 0 0px 2px rgb(0 0 0 / 40%), inset 0 0px 1px rgb(0 0 0 / 30%),
     0 1px 2px rgb(0 0 0 / 60%), 0 4px 2px rgb(0 0 0 / 20%),
     0 9px 4px rgb(0 0 0 / 10%), inset 0 2px 1px #ffffff8c;
   width: var(--size);
@@ -147,14 +149,14 @@
   font-size: calc(var(--size) / 5);
   color: var(--primary-color);
   background: radial-gradient(
-      closest-side,
-      var(--inner-bg) 79%,
-      transparent 80% 100%
-    ),
-    conic-gradient(
-      var(--primary-color) calc(var(--eb-progress-value) * 1%),
-      var(--secondary-color) 0
-    );
+  closest-side,
+  var(--inner-bg) 79%,
+  transparent 80% 100%
+  ),
+  conic-gradient(
+  var(--primary-color) calc(var(--eb-progress-value) * 1%),
+  var(--secondary-color) 0
+  );
   border-radius: 50%;
 }
 
@@ -376,54 +378,54 @@ input {
   }
 
   .w3-about {
-    display: flex;
-    width: 100%;
-    
-  }
+  display: flex;
+  width: 100%;
   
-  #aboutme {
-    margin-left: 0;
-  }
+}
+  
+#aboutme {
+  margin-left: 0;
+}
 
   #logoLeft {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   .aboutme {
-    padding: 50px 16px !important;
-  }
+  padding: 50px 16px !important;
+}
 
   .certificate {
-    width: 100%;
-  }
+  width: 100%;
+}
 
-  .pleft {
-    display: none;
-  }
+.pleft {
+  display: none;
+}
 
   .eb-progress-bar-wrapper {
-    display: inline-block;
-    width:30%;
-  }
+  display: inline-block;
+  width:30%;
+}
 
   .headings {
-    display: block !important;
-    padding: 20px;
-  }
+  display: block !important;
+  padding: 20px;
+}
 
   .headings > strong {
-    padding: 0 33px;
-  }
+  padding: 0 33px;
+}
 
-  .w3-wide-skill {
-    font-size: 14px;
-  }
+.w3-wide-skill {
+font-size: 14px;
+}
 
-  .contactme {
-    padding: 30px 30px !important;
-  }
+.contactme {
+  padding: 30px 30px !important;
+}
 
   .innerdiv {
     display: block;
@@ -431,16 +433,16 @@ input {
   }
 
   .outerdiv {
-    border: none !important;
-    background-color: #f1f1f1 !important;
-    display: block !important;
-  }
+  border: none !important;
+  background-color: #f1f1f1 !important;
+  display: block !important;
+}
 
-  .w3-black {
-    margin-top: -31px !important;
-  }
+.w3-black {
+  margin-top: -31px !important;
+}
 
-  #seemore {
-    margin: 10px;
-  }
+#seemore {
+  margin: 10px;
+}
 }
