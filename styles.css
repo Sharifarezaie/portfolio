@@ -96,6 +96,7 @@
 .project {
   height: 200px;
   width:100%;
+
 }
 
 .innerdiv {
@@ -183,7 +184,7 @@
     linear,
     right top,
     right bottom,
-    color-stop(0%, #ffffff),
+    color-stop(0%, #fff),
     color-stop(100%, #d3d1cb)
   );
   box-shadow: 1px 1px 3px rgb(0 0 0 / 15%);
@@ -215,22 +216,22 @@ progress {
   float: left;
   margin-left: 20px;
   margin-top: 25px;
-font-size: 28px;
-font-weight: bold;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .w3-wide-skill {
-  color: #511F52 !important;
+  color: #511f52 !important;
   font-size: 20px;
 }
 
 .stl {
-  border-radius: 20px;
-  border: 2px solid #511F52 ;
+  border-radius: 20px";"
+  border: 2px solid #511f52 ;
 }
 
 .w3-dark-grey {
-  background-color: #511F52 !important;
+  background-color: #511f52 !important;
 }
 
 .w3-grey {
@@ -238,12 +239,12 @@ font-weight: bold;
 }
 
 input {
-  background-color: #A987A8;
+  background-color: #a987a8;
   border-radius: 10px;
 }
 
 .cntct {
-  color:#511F52;
+  color: #511f52;
   font-size: 23px;
 }
 
@@ -275,20 +276,20 @@ input {
   padding:10px 16px;
 }
 
-.headings{
+.headings  {
   display: none;
 }
 
-.tmwork {
+.tmwork  {
   display: flex;
 }
 
-.cleancode {
+.cleancode  {
   float: left;
   width: 40%;
 }
 
-#contact{
+#contact  {
   padding:75px 30px;
 }
 
@@ -301,7 +302,7 @@ input {
   background-color: #f5e7f5;
 }
 
-.ninty {
+.ninty  {
   width:90%;
 }
 
@@ -323,11 +324,11 @@ input {
   width: 49%;
 }
 
-.seventysix {
+.seventysix  {
   width:76%;
 }
 
-.ety {
+.ety  {
   width:80%;
 }
 
