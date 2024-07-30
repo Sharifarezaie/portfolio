@@ -150,13 +150,14 @@
   font-size: calc(var(--size) / 5);
   color: var(--primary-color);
   background:
-    radial-gradient(closest-side,
-    var(--inner-bg) 79%,
-    transparent 80% 100%
+    radial-gradient(
+      closest-side,
+      var(--inner-bg) 79%,
+      transparent 80% 100%
     ),
     conic-gradient(
-    var(--primary-color) calc(var(--eb-progress-value) * 1%),
-    var(--secondary-color) 0
+      var(--primary-color) calc(var(--eb-progress-value) * 1%),
+      var(--secondary-color) 0
     );
   border-radius: 50%;
 }
@@ -229,7 +230,7 @@ progress {
 
 .stl {
   border-radius: 20px;
-  border: 2px solid #511f52 ;
+  border: 2px solid #511f52;
 }
 
 .w3-dark-grey {
@@ -259,23 +260,23 @@ input {
 }
 
 #social {
-  padding:24px 48px;
+  padding: 24px 48px;
 }
 
 #about {
-  padding:128px 16px;
+  padding: 128px 16px;
 }
 
 #project {
-  padding:50px 16px;
+  padding: 50px 16px;
 }
 
 #prodiv {
-  margin-top:64px;
+  margin-top: 64px;
 }
 
 #skill {
-  padding:10px 16px;
+  padding: 10px 16px;
 }
 
 .headings  {
@@ -292,11 +293,11 @@ input {
 }
 
 #contact  {
-  padding:75px 30px;
+  padding: 75px 30px;
 }
 
 .outerdiv {
-  margin-top:10px;
+  margin-top: 10px;
   border: 2px solid #511F52 ;
   padding: 30px;
   border-radius: 10px;
@@ -305,7 +306,7 @@ input {
 }
 
 .ninty  {
-  width:90%;
+  width: 90%;
 }
 
 .etyfifve {
@@ -327,11 +328,11 @@ input {
 }
 
 .seventysix  {
-  width:76%;
+  width: 76%;
 }
 
 .ety  {
-  width:80%;
+  width: 80%;
 }
 
 @media screen and (max-width: 768px) {
@@ -359,7 +360,7 @@ input {
   }
 
   .w3-display-left {
-    display:block;
+    display: block;
     margin-top: 130px;
     align-items: center;
   }
@@ -406,7 +407,7 @@ input {
 
   .eb-progress-bar-wrapper {
     display: inline-block;
-    width:30%;
+    width: 30%;
   }
 
   .headings {
