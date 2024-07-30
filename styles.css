@@ -118,12 +118,6 @@
   background-color: #a987a8;
 }
 
-@property --eb-progress-value {
-  syntax: "<integer>";
-  inherits: false;
-  initial-value: 0;
-}
-
 @keyframes eb-progress {
   to {
     --eb-progress-value: var(--value);
@@ -135,6 +129,7 @@
   --inner-bg: #f2f2f2;
   --primary-color: var(--col);
   --secondary-color: #dfe0e0;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -344,8 +339,7 @@ input {
 
   #Name {
     text-align: center;
-    margin-left: 0px;
-    /* margin-top: 140px; */
+    margin-left: 0;
   }
 
   .objective {
