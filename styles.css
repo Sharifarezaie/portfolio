@@ -129,7 +129,7 @@
   --inner-bg: #f2f2f2;
   --primary-color: var(--col);
   --secondary-color: #dfe0e0;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
