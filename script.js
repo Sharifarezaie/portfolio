@@ -16,6 +16,6 @@ const drawerLink = document.getElementById('drawer');
 drawerLink.onclick = w3Open;
 
 const closeLinks = document.getElementsByClassName('close');
-Array.from(closeLinks).forEach(function assignOnClick (closeLink) {
+Array.from(closeLinks).forEach((closeLink) => {
   closeLink.onclick = w3Close;
 });
