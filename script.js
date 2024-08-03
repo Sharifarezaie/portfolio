@@ -7,7 +7,7 @@
 // }
 
 // Toggle between showing and hiding the sidebar when clicking the menu icon
-let mySidebar = document.getElementById("mySidebar");
+const mySidebar = document.getElementById("mySidebar");
 
 function w3_open() {
   if (mySidebar.style.display === 'block') {
