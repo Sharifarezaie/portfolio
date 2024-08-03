@@ -1,15 +1,6 @@
-// Modal Image Gallery
-// function onClick(element) {
-//   document.getElementById("img01").src = element.src;
-//   document.getElementById("modal01").style.display = "block";
-//   var captionText = document.getElementById("caption");
-//   captionText.innerHTML = element.alt;
-// }
+const mySidebar = document.getElementById('mySidebar');
 
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-const mySidebar = document.getElementById("mySidebar");
-
-function w3_open() {
+function w3Open() {
   if (mySidebar.style.display === 'block') {
     mySidebar.style.display = 'none';
   } else {
@@ -17,7 +8,14 @@ function w3_open() {
   }
 }
 
-// Close the sidebar with the close button
-function w3_close() {
-  mySidebar.style.display = "none";
+function w3Close() {
+  mySidebar.style.display = 'none';
 }
+
+const drawerLink = document.getElementById('drawer');
+drawerLink.onclick = w3Open;
+
+const closeLinks = document.getElementsByClassName('close');
+Array.from(closeLinks).forEach(function(closeLink) {
+  closeLink.onclick = w3Close;
+});
