@@ -42,6 +42,11 @@ you can access to my project through git clone -git clone the HTTP or My SSH cod
 -github usage
 -Personal Portfolio
 
+
+## Figma Design Link ⭐
+
+https://www.figma.com/design/1NFNPZ5Bx6kgc0nIY5keQ8/Portfolio-Designing?node-id=3-582&t=H3W10WGzEomOHfgl-1
+
 ## Author 👩‍💻 SharifaRezaie
 
 Provide your name and a link to your Social Media profiles. You can also include your email address.
